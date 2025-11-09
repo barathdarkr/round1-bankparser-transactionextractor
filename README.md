@@ -49,7 +49,7 @@ Extracted Transactions:
 03. DEBIT   |    1000.00 | ID: XYZ42
 04. CREDIT  |     200.75 | ID: LMN55
 
-Done ✔
+Done 
 
 Regex Pattern
 Field	Regex	Description
