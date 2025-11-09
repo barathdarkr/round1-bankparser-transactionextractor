@@ -28,7 +28,7 @@ Expected Output:
 03. DEBIT   |    1000.00 | ID: XYZ42
 04. CREDIT  |     200.75 | ID: LMN55
 
-Done ✔
+Done 
  Regex Pattern Explanation
 Field	Regex Component	Description
 TXN Type	TXN:\s*([A-Z]+)	Captures uppercase word after TXN:
@@ -39,15 +39,15 @@ Pipe separation	\s*\|\s*	Allows flexible spacing between fields
 Full regex used:
 pattern = r"TXN:\s*([A-Z]+)\s*\|\s*AMT:\s*([\d,]+(?:\.\d+)?)\s*\|\s*ID:\s*([A-Za-z0-9]+)"
  How to Run
-1️ Prerequisites:
+Prerequisites:
 - Python 3.8 or higher
-2️⃣ Navigate to project folder:
+Navigate to project folder:
 cd C:\Users\round1\TransactionExtractor
-3️⃣ Run the script:
+Run the script:
 python extract_transactions.py sample_log.txt
-4️⃣ Expected Output:
+Expected Output:
 Structured list of extracted transactions printed in console.
-🧪 Example in Code
+Example in Code
 from extract_transactions import extract_transactions
 
 log = '''
