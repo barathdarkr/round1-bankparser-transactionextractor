@@ -1,0 +1,9 @@
+Return ONLY valid JSON with keys:
+fields{
+  account_info{bank_name, account_holder_name, masked_account_number, statement_month, statement_year, account_type},
+  summary{opening_balance, closing_balance, total_credits, total_debits, average_daily_balance, overdraft_count, nsf_count},
+  transactions:[{date, description, amount, balance, category}]
+}
+- Mask account numbers (last 4 digits visible).
+- Normalize amounts to numbers (float).
+- Dates in ISO YYYY-MM-DD if possible.

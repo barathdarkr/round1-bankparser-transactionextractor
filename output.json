@@ -1,0 +1,183 @@
+{
+  "fields": {
+    "account_info": {
+      "bank_name": "SAMPLE",
+      "account_holder_name": "JAMES C. MORRISON",
+      "masked_account_number": "XXXX5678",
+      "statement_month": "November",
+      "statement_year": "2023",
+      "account_type": "Checking"
+    },
+    "summary": {
+      "opening_balance": 69.96,
+      "closing_balance": 586.71,
+      "total_credits": 1876.28,
+      "total_debits": 1332.02,
+      "average_daily_balance": 643.24,
+      "overdraft_count": 0,
+      "nsf_count": 0,
+      "balance_mismatch_warning": true
+    },
+    "transactions": [
+      {
+        "date": "2023-10-02",
+        "description": "POS PURCHASE",
+        "amount": -4.23,
+        "balance": 65.73,
+        "category": "Purchase"
+      },
+      {
+        "date": "2023-10-03",
+        "description": "PREAUTHORIZED CREDIT",
+        "amount": 763.01,
+        "balance": 828.74,
+        "category": "Deposit"
+      },
+      {
+        "date": "2023-10-04",
+        "description": "POS PURCHASE",
+        "amount": -11.68,
+        "balance": 817.06,
+        "category": "Purchase"
+      },
+      {
+        "date": "2023-10-05",
+        "description": "CHECK 1234",
+        "amount": -9.98,
+        "balance": 807.08,
+        "category": "Check"
+      },
+      {
+        "date": "2023-10-05",
+        "description": "POS PURCHASE",
+        "amount": -25.5,
+        "balance": 781.58,
+        "category": "Purchase"
+      },
+      {
+        "date": "2023-10-08",
+        "description": "POS PURCHASE",
+        "amount": -59.08,
+        "balance": 722.5,
+        "category": "Purchase"
+      },
+      {
+        "date": "2023-10-12",
+        "description": "CHECK 1236",
+        "amount": -69.0,
+        "balance": 653.5,
+        "category": "Check"
+      },
+      {
+        "date": "2023-10-14",
+        "description": "CHECK 1237",
+        "amount": -180.63,
+        "balance": 472.87,
+        "category": "Check"
+      },
+      {
+        "date": "2023-10-14",
+        "description": "POS PURCHASE",
+        "amount": -18.96,
+        "balance": 453.91,
+        "category": "Purchase"
+      },
+      {
+        "date": "2023-10-16",
+        "description": "PREAUTHORIZED CREDIT",
+        "amount": 763.01,
+        "balance": 1216.92,
+        "category": "Deposit"
+      },
+      {
+        "date": "2023-10-22",
+        "description": "ATM WITHDRAWAL",
+        "amount": -140.0,
+        "balance": 1076.92,
+        "category": "Withdrawal"
+      },
+      {
+        "date": "2023-10-28",
+        "description": "CHECK 1238",
+        "amount": -91.06,
+        "balance": 985.86,
+        "category": "Check"
+      },
+      {
+        "date": "2023-10-30",
+        "description": "CHECK 1239",
+        "amount": -451.2,
+        "balance": 534.66,
+        "category": "Check"
+      },
+      {
+        "date": "2023-10-30",
+        "description": "CHECK 1246",
+        "amount": -37.07,
+        "balance": 497.59,
+        "category": "Check"
+      },
+      {
+        "date": "2023-10-30",
+        "description": "POS PURCHASE",
+        "amount": -18.67,
+        "balance": 478.92,
+        "category": "Purchase"
+      },
+      {
+        "date": "2023-10-31",
+        "description": "CHECK 1247",
+        "amount": -100.0,
+        "balance": 378.92,
+        "category": "Check"
+      },
+      {
+        "date": "2023-10-31",
+        "description": "CHECK 1248",
+        "amount": -78.24,
+        "balance": 300.68,
+        "category": "Check"
+      },
+      {
+        "date": "2023-10-31",
+        "description": "PREAUTHORIZED CREDIT",
+        "amount": 350.0,
+        "balance": 650.68,
+        "category": "Deposit"
+      },
+      {
+        "date": "2023-11-02",
+        "description": "CHECK 1249",
+        "amount": -52.23,
+        "balance": 598.45,
+        "category": "Check"
+      },
+      {
+        "date": "2023-11-09",
+        "description": "INTEREST CREDIT",
+        "amount": 0.26,
+        "balance": 598.71,
+        "category": "Interest"
+      },
+      {
+        "date": "2023-11-09",
+        "description": "SERVICE CHARGE",
+        "amount": -12.0,
+        "balance": 586.71,
+        "category": "Fee"
+      }
+    ]
+  },
+  "insights": [
+    "The account shows a consistent bi-weekly salary deposit of $763.01, observed on October 3rd and October 16th. An additional credit of $350.00 was received on October 31st, suggesting multiple income streams or a variable component.",
+    "Spending is predominantly through checks, which account for the largest portion of debits. Regular POS purchases are also observed, along with a single ATM withdrawal.",
+    "There were no overdrafts or Non-Sufficient Funds (NSF) events during the statement period. The account maintained a healthy balance, with the lowest recorded balance being $65.73 at the beginning of October, which quickly recovered after a salary deposit.",
+    "One ATM withdrawal of $140.00 was made on October 22nd. There is no indication of UPI transactions in the provided data."
+  ],
+  "quality": {
+    "ocr_confidence": null,
+    "warnings": [],
+    "duplicates_detected": false,
+    "gemini_extraction_used": true
+  }
+}

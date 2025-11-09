@@ -1,0 +1,4 @@
+Given the extracted JSON (fields + summary + transactions), return JSON:
+{"insights":[ "...", "..." ]}
+Focus on balance behavior, salary detection, ATM/cash usage, overdrafts, large deposits/withdrawals, and spending concentration (e.g., UPI share).
+Return ONLY {"insights":[...]}.
